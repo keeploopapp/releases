@@ -3,6 +3,20 @@
     <channel>
         <title>Keeploop</title>
         <item>
+            <title>0.25.0</title>
+            <pubDate>Mon, 12 Oct 2026 13:55:13 -0500</pubDate>
+            <sparkle:phasedRolloutInterval>86400</sparkle:phasedRolloutInterval>
+            <sparkle:version>47</sparkle:version>
+            <sparkle:shortVersionString>0.25.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.0/Keeploop-0.25.0.dmg" length="44686235" type="application/octet-stream" sparkle:edSignature="Ws6/LAnZplxPsbOmzDK+jOCIaft82TzOcjFJGJBZp9m0OmEI3v1RLIbnGMImb0DJqNyFH046eHJIcilfcMlfAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.0/Keeploop47-46.delta" sparkle:deltaFrom="46" length="816574" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3F92fQExJ6yAc0OfZZKzpP67tDvAIj1wPl4TqGP6z3CUYIGCrnJS/H3OuhrFc6/fB35T6jvZr+1s4q5gvHRODg=="/>
+                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.0/Keeploop47-45.delta" sparkle:deltaFrom="45" length="813426" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Gp75iICrruzwqm7ZxMngJQIilu8F5Cqpxzp3ZddvNGyGZMahKC0Wlg8Po+mJxxBOyt2wfeUObm5H8omZ6YgoDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.24.1</title>
             <pubDate>Mon, 12 Oct 2026 10:53:56 -0500</pubDate>
             <sparkle:phasedRolloutInterval>86400</sparkle:phasedRolloutInterval>
