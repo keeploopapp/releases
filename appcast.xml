@@ -3,6 +3,19 @@
     <channel>
         <title>Keeploop</title>
         <item>
+            <title>0.24.0</title>
+            <pubDate>Mon, 12 Oct 2026 09:10:05 -0500</pubDate>
+            <sparkle:phasedRolloutInterval>86400</sparkle:phasedRolloutInterval>
+            <sparkle:version>45</sparkle:version>
+            <sparkle:shortVersionString>0.24.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.24.0/Keeploop-0.24.0.dmg" length="44554325" type="application/octet-stream" sparkle:edSignature="dZKZ+SJLp34YZUPB36o8oqL5S8NCnt72qgghJIuqYbmpMEdg0wwxiWxJu4W3a+xQKy2pP8AqF2Ce9BsK+W77AA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.24.0/Keeploop45-44.delta" sparkle:deltaFrom="44" length="767438" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3mRPlL2z3U7vGowBC5M83p6tMqyhsbs94qGyWwfDou792PevY21YjGmCuUEG36GwdlCeEFt+fHiXVCvCqzmnBw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.23.1</title>
             <pubDate>Sat, 10 Oct 2026 21:45:57 -0500</pubDate>
             <sparkle:channel>beta</sparkle:channel>
