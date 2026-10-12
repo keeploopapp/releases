@@ -3,6 +3,22 @@
     <channel>
         <title>Keeploop</title>
         <item>
+            <title>0.25.1</title>
+            <pubDate>Mon, 12 Oct 2026 16:21:17 -0500</pubDate>
+            <sparkle:phasedRolloutInterval>86400</sparkle:phasedRolloutInterval>
+            <sparkle:version>48</sparkle:version>
+            <sparkle:shortVersionString>0.25.1</sparkle:shortVersionString>
+            <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.45 -apple-system,BlinkMacSystemFont,system-ui,sans-serif;color:#1d1d1f;margin:0;padding:2px 4px}h3{font-size:13px;font-weight:600;margin:0 0 6px}ul{margin:0;padding-left:18px}li{margin:0 0 4px}code{font:12px ui-monospace,Menlo,monospace}@media (prefers-color-scheme: dark){body{color:#f5f5f7}}</style><h3>What's new in Keeploop 0.25.1</h3><ul><li>The menu shows when an update is available.</li><li>Install and Relaunch now always relaunches, even with a settings sheet open.</li><li>Monitors no longer alert on mail in Junk or Spam.</li></ul>]]></description>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.1/Keeploop-0.25.1.dmg" length="44721035" type="application/octet-stream" sparkle:edSignature="Qwue+J33uQtoiaG282N7oj3R7cjthJRCIzC2/+vcaqlllx3QfWKBOaxEd4geeKsZf9TA1wUmxkZfnC3Vr8VpCw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.1/Keeploop48-47.delta" sparkle:deltaFrom="47" length="601738" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZtmAc9pVnZmc11iKS0ONRPLcc17yzv/U8s7fExWYyZizXZENGFTYUSkSsHoVOf3Q+oblKxgFCQeVa4cj7AlkBg=="/>
+                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.1/Keeploop48-46.delta" sparkle:deltaFrom="46" length="848318" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lv04nYRPAioIpHsLxUS15glBQKNmM+LnCs8z3YdEfeMrCLds25za6Gn5Ykhfs9NhUjFZQdQopC8CPaU6J8V/CA=="/>
+                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.1/Keeploop48-45.delta" sparkle:deltaFrom="45" length="852886" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nvuLB0tzj65Rn9WIFVOpzmnoLylEFSAsG/orVQ4+C+mEoZCbkEv+nj6ECARRH3jH8LS4f2Frp5GEeWzNUJizAA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.25.0</title>
             <pubDate>Mon, 12 Oct 2026 13:55:13 -0500</pubDate>
             <sparkle:phasedRolloutInterval>86400</sparkle:phasedRolloutInterval>
@@ -33,24 +49,12 @@
             </sparkle:deltas>
         </item>
         <item>
-            <title>0.24.0</title>
-            <pubDate>Mon, 12 Oct 2026 09:10:05 -0500</pubDate>
-            <sparkle:phasedRolloutInterval>86400</sparkle:phasedRolloutInterval>
-            <sparkle:version>45</sparkle:version>
-            <sparkle:shortVersionString>0.24.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.24.0/Keeploop-0.24.0.dmg" length="44554325" type="application/octet-stream" sparkle:edSignature="dZKZ+SJLp34YZUPB36o8oqL5S8NCnt72qgghJIuqYbmpMEdg0wwxiWxJu4W3a+xQKy2pP8AqF2Ce9BsK+W77AA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.24.0/Keeploop45-44.delta" sparkle:deltaFrom="44" length="767438" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3mRPlL2z3U7vGowBC5M83p6tMqyhsbs94qGyWwfDou792PevY21YjGmCuUEG36GwdlCeEFt+fHiXVCvCqzmnBw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
             <title>0.23.1</title>
             <pubDate>Sat, 10 Oct 2026 21:45:57 -0500</pubDate>
             <sparkle:channel>beta</sparkle:channel>
             <sparkle:version>44</sparkle:version>
             <sparkle:shortVersionString>0.23.1</sparkle:shortVersionString>
+            <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.45 -apple-system,BlinkMacSystemFont,system-ui,sans-serif;color:#1d1d1f;margin:0;padding:2px 4px}h3{font-size:13px;font-weight:600;margin:0 0 6px}ul{margin:0;padding-left:18px}li{margin:0 0 4px}code{font:12px ui-monospace,Menlo,monospace}@media (prefers-color-scheme: dark){body{color:#f5f5f7}}</style><h3>What's new in Keeploop 0.23.1</h3><ul><li>Keeploop's first public release.</li><li>Ask your AI about your Mac's Mail, Calendar, Messages, Notes, Contacts and Slack. Your data stays on your Mac.</li><li>Works with Claude, ChatGPT, Codex, Cursor and other AI apps, on your Mac and on the web and phone.</li><li>Cards in ChatGPT and Claude show your inbox, today's schedule, free time and drafts.</li><li>Monitors tell you when a reply, a signature or an invite arrives.</li><li>Drafts and replies in your voice, and every send follows your rules: Blocked, Asked or Auto per account, label and contact.</li><li>You choose which accounts and sources each AI app can see.</li><li>One-time and sign-in codes are hidden from web and phone AI apps.</li><li>Optional health reports, off by default, and Report a problem.</li></ul>]]></description>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.23.1/Keeploop-0.23.1.dmg" length="44533780" type="application/octet-stream" sparkle:edSignature="559y73XqfAryxGTkDmxEBkuehoIqmDkW5uP/Monb6k4h9hv8arH7pezrxAnkaLw50J7vqWb88ul6J3nRn3pWCw=="/>
