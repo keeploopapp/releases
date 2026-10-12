@@ -8,6 +8,7 @@
             <sparkle:phasedRolloutInterval>86400</sparkle:phasedRolloutInterval>
             <sparkle:version>47</sparkle:version>
             <sparkle:shortVersionString>0.25.0</sparkle:shortVersionString>
+            <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.45 -apple-system,BlinkMacSystemFont,system-ui,sans-serif;color:#1d1d1f;margin:0;padding:2px 4px}h3{font-size:13px;font-weight:600;margin:0 0 6px}ul{margin:0;padding-left:18px}li{margin:0 0 4px}code{font:12px ui-monospace,Menlo,monospace}@media (prefers-color-scheme: dark){body{color:#f5f5f7}}</style><h3>What's new in Keeploop 0.25.0</h3><ul><li>Upgrade to Pro without leaving Keeploop: checkout opens in the app, and Pro turns on as soon as you pay.</li><li>The activation link in your Pro email turns Pro on right away.</li><li>Settings shows how many trial days are left, with an Upgrade button.</li><li>After setup, Keeploop shows a first question to ask your AI app.</li><li>Grok and Grok Bot have their own setup steps.</li><li>After an update, AI apps are asked to reconnect instead of failing.</li></ul>]]></description>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.0/Keeploop-0.25.0.dmg" length="44686235" type="application/octet-stream" sparkle:edSignature="Ws6/LAnZplxPsbOmzDK+jOCIaft82TzOcjFJGJBZp9m0OmEI3v1RLIbnGMImb0DJqNyFH046eHJIcilfcMlfAA=="/>
@@ -22,6 +23,7 @@
             <sparkle:phasedRolloutInterval>86400</sparkle:phasedRolloutInterval>
             <sparkle:version>46</sparkle:version>
             <sparkle:shortVersionString>0.24.1</sparkle:shortVersionString>
+            <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.45 -apple-system,BlinkMacSystemFont,system-ui,sans-serif;color:#1d1d1f;margin:0;padding:2px 4px}h3{font-size:13px;font-weight:600;margin:0 0 6px}ul{margin:0;padding-left:18px}li{margin:0 0 4px}code{font:12px ui-monospace,Menlo,monospace}@media (prefers-color-scheme: dark){body{color:#f5f5f7}}</style><h3>What's new in Keeploop 0.24.1</h3><ul><li>Easier install: the disk image shows where to drag Keeploop.</li><li>Staying connected in more than one place in the same AI app works reliably.</li></ul>]]></description>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.24.1/Keeploop-0.24.1.dmg" length="44581865" type="application/octet-stream" sparkle:edSignature="gLW/MhLloGU4SsfF6rGsLfxbrzNUasOV8A53gSs+H74VQYfvMl1gnQ5+9uccPoWYfIt7Pu0X+XLdzG7qxTpFDQ=="/>
