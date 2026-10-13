@@ -3,6 +3,21 @@
     <channel>
         <title>Keeploop</title>
         <item>
+            <title>0.25.6</title>
+            <pubDate>Tue, 13 Oct 2026 14:40:36 -0500</pubDate>
+            <sparkle:version>53</sparkle:version>
+            <sparkle:shortVersionString>0.25.6</sparkle:shortVersionString>
+            <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.45 -apple-system,BlinkMacSystemFont,system-ui,sans-serif;color:#1d1d1f;margin:0;padding:2px 4px}h3{font-size:13px;font-weight:600;margin:0 0 6px}ul{margin:0;padding-left:18px}li{margin:0 0 4px}code{font:12px ui-monospace,Menlo,monospace}@media (prefers-color-scheme: dark){body{color:#f5f5f7}}</style><h3>What's new in Keeploop 0.25.6</h3><ul><li>Setup now has a "Keep Keeploop up to date" switch, on by default. If you never chose, Keeploop asks you once in the menu: Turn On or Not Now. You can change it any time in Settings &gt; General.</li><li>Updates now reach every Mac at once instead of a few Macs a day.</li><li>Claude chats on your Mac now use Keeploop's local connector when it is there and leave Keeploop Remote for the web and your phone. Keeploop no longer suggests switching Keeploop Remote off.</li></ul>]]></description>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.6/Keeploop-0.25.6.dmg" length="45110236" type="application/octet-stream" sparkle:edSignature="Y4roS9eeFb4jktS/qYIpk7k0KcPcBxFBYBVdfFQrMJ8QFEanC+jGTmVmZvUsUERwHdhEuA/rgTLba9PjsEpCCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.6/Keeploop53-52.delta" sparkle:deltaFrom="52" length="667882" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="91EqG5ycnYvv2vkjlGH31lobq8zbCtuYyw5yBD4mxqRsm+QtkMDDKULjS27m+S0lqyeUh8q4hyR7MOJdkOK/CQ=="/>
+                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.6/Keeploop53-51.delta" sparkle:deltaFrom="51" length="973874" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LSRGGe1l3YcDa4LpQEuJcLJsJCYZa7BYS/M5utZwjD1u7QRgqYXNMtQr+ECreykmbQ6kMeuYPfJEMoVQIB9kDw=="/>
+                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.6/Keeploop53-49.delta" sparkle:deltaFrom="49" length="1234278" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2fUJ3+P3qQt8DSKlYd9aM3eF4Aei3S9l0tCk1OUsER5Xisr6QjcZfXsc40e7xyeuLEcVYx70w5Y53alUS42MBA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.25.5</title>
             <pubDate>Tue, 13 Oct 2026 08:56:51 -0500</pubDate>
             <sparkle:version>52</sparkle:version>
@@ -30,21 +45,6 @@
                 <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.4/Keeploop51-49.delta" sparkle:deltaFrom="49" length="984746" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="a5wkI3lggmefpkwSckoajd1Zk5nBTQ6GTJj+hSUtsggeQofX3Nlv05sbrzWOsKTEqEFlwFh268sJytaNS+NvCQ=="/>
                 <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.4/Keeploop51-48.delta" sparkle:deltaFrom="48" length="1084906" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GcAkWNhX5AGNzbiYMUBbhR9Ec8W008apKKLJDJ3A+AEb7dkEFRZ3X3n6RfEUASJmaaS4RxtRCnDBR/VQD/K+CQ=="/>
                 <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.4/Keeploop51-47.delta" sparkle:deltaFrom="47" length="1120682" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Pm7LpLzwCj6JYvMSX9WmVjJC1ZwO4r4YNgb5GgI/R56CS0Wet+dQCcup8gO35Fkh8D78lW38soILfa8oXIRVDQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.25.2</title>
-            <pubDate>Mon, 12 Oct 2026 18:32:32 -0500</pubDate>
-            <sparkle:version>49</sparkle:version>
-            <sparkle:shortVersionString>0.25.2</sparkle:shortVersionString>
-            <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.45 -apple-system,BlinkMacSystemFont,system-ui,sans-serif;color:#1d1d1f;margin:0;padding:2px 4px}h3{font-size:13px;font-weight:600;margin:0 0 6px}ul{margin:0;padding-left:18px}li{margin:0 0 4px}code{font:12px ui-monospace,Menlo,monospace}@media (prefers-color-scheme: dark){body{color:#f5f5f7}}</style><h3>What's new in Keeploop 0.25.2</h3><ul><li>Clearer approval when a monitor asks to run your AI app on its own: plain words, who asked and why, and one window for requests that arrive together, with Allow All and Don't Allow All.</li><li>One notification for waiting approvals instead of one each.</li><li>AI apps get a link to Keeploop's guide and tool reference, and the Pro message mentions the free trial.</li><li>The Mail account step in setup no longer repeats its title.</li></ul>]]></description>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.2/Keeploop-0.25.2.dmg" length="44770744" type="application/octet-stream" sparkle:edSignature="93ibLUZa7ZrH+3Imu1X10DfHYnzR/crpJeKE1mdftnN8FA3viBQ0hZYCmY7jTScDBylAFJomCYTL5WsX4y1iAA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.2/Keeploop49-48.delta" sparkle:deltaFrom="48" length="779774" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="T9pV3EXbcUchNpM5dHIhIET33pzFWSqVWRGj1O1lmZDlheb5LsZqaYDl+NcIvEYU0wRQ7vnIZ0+WMXQHF5qMCg=="/>
-                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.2/Keeploop49-47.delta" sparkle:deltaFrom="47" length="831274" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hGzoTrCOgaBKMyEPyplfvv93CtYO0SGeQ/qt+I/1GSRo2knybpLUK5XWrsa50QoHt+zq4Jwzc1hI9Zr5h1eVDQ=="/>
-                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.2/Keeploop49-46.delta" sparkle:deltaFrom="46" length="988862" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Igs8bjih9BVfYPDx06Ar55nmrGiUVcb9I5D0EqxEkpg11wrOx28XTCjiM+mY+frUR+l9TBq0DukHHntxYrqyAA=="/>
             </sparkle:deltas>
         </item>
         <item>
