@@ -3,6 +3,22 @@
     <channel>
         <title>Keeploop</title>
         <item>
+            <title>0.25.4</title>
+            <pubDate>Tue, 13 Oct 2026 00:40:22 -0500</pubDate>
+            <sparkle:phasedRolloutInterval>86400</sparkle:phasedRolloutInterval>
+            <sparkle:version>51</sparkle:version>
+            <sparkle:shortVersionString>0.25.4</sparkle:shortVersionString>
+            <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.45 -apple-system,BlinkMacSystemFont,system-ui,sans-serif;color:#1d1d1f;margin:0;padding:2px 4px}h3{font-size:13px;font-weight:600;margin:0 0 6px}ul{margin:0;padding-left:18px}li{margin:0 0 4px}code{font:12px ui-monospace,Menlo,monospace}@media (prefers-color-scheme: dark){body{color:#f5f5f7}}</style><h3>What's new in Keeploop 0.25.4</h3><ul><li>A monitor whose background runs can use more than Keeploop's tools now matches the sender by email address only, never the display name, and wakes your AI app only when the sender is verified (DMARC, DKIM or SPF). Otherwise you get "Sender not verified, agent not woken". Wake-ups and wake history say "Verified sender" or "Sender not verified".</li><li>"Replies owed" no longer lists newsletters, promos and other bulk mail; real people still show.</li><li>Sign-in codes in Spanish, French, German, Italian, Portuguese, Dutch, Japanese, Chinese and Korean are now hidden from web and phone AI apps too.</li><li>The Privacy policy link in Settings opens keeploop.app/privacy.</li><li>When a sender is not verified and your AI app was not woken, you can now choose Wake anyway, on the Mac, in Slack or on your phone. You see the sender's address and why it was not verified. Wake anyway runs that one message once; it never trusts the sender for next time.</li><li>Phone buttons now work with Keeploop's connection service, not only with your own tunnel.</li><li>Wake-ups that ask first can be answered from your phone or Slack with Allow or Don't Allow. Always Allow stays on the Mac.</li></ul>]]></description>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.4/Keeploop-0.25.4.dmg" length="44966757" type="application/octet-stream" sparkle:edSignature="xGwBzYmWNrJUFFWyLLVM5LIQJblw5Q/wQOnjippZiE0Wmn3EqYOroLJHmPS6MbdsUP0hjVvTL8fEXneOEwGXCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.4/Keeploop51-49.delta" sparkle:deltaFrom="49" length="984746" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="a5wkI3lggmefpkwSckoajd1Zk5nBTQ6GTJj+hSUtsggeQofX3Nlv05sbrzWOsKTEqEFlwFh268sJytaNS+NvCQ=="/>
+                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.4/Keeploop51-48.delta" sparkle:deltaFrom="48" length="1084906" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GcAkWNhX5AGNzbiYMUBbhR9Ec8W008apKKLJDJ3A+AEb7dkEFRZ3X3n6RfEUASJmaaS4RxtRCnDBR/VQD/K+CQ=="/>
+                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.4/Keeploop51-47.delta" sparkle:deltaFrom="47" length="1120682" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Pm7LpLzwCj6JYvMSX9WmVjJC1ZwO4r4YNgb5GgI/R56CS0Wet+dQCcup8gO35Fkh8D78lW38soILfa8oXIRVDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.25.2</title>
             <pubDate>Mon, 12 Oct 2026 18:32:32 -0500</pubDate>
             <sparkle:phasedRolloutInterval>86400</sparkle:phasedRolloutInterval>
@@ -32,21 +48,6 @@
                 <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.1/Keeploop48-47.delta" sparkle:deltaFrom="47" length="601738" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZtmAc9pVnZmc11iKS0ONRPLcc17yzv/U8s7fExWYyZizXZENGFTYUSkSsHoVOf3Q+oblKxgFCQeVa4cj7AlkBg=="/>
                 <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.1/Keeploop48-46.delta" sparkle:deltaFrom="46" length="848318" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lv04nYRPAioIpHsLxUS15glBQKNmM+LnCs8z3YdEfeMrCLds25za6Gn5Ykhfs9NhUjFZQdQopC8CPaU6J8V/CA=="/>
                 <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.1/Keeploop48-45.delta" sparkle:deltaFrom="45" length="852886" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nvuLB0tzj65Rn9WIFVOpzmnoLylEFSAsG/orVQ4+C+mEoZCbkEv+nj6ECARRH3jH8LS4f2Frp5GEeWzNUJizAA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.25.0</title>
-            <pubDate>Mon, 12 Oct 2026 13:55:13 -0500</pubDate>
-            <sparkle:phasedRolloutInterval>86400</sparkle:phasedRolloutInterval>
-            <sparkle:version>47</sparkle:version>
-            <sparkle:shortVersionString>0.25.0</sparkle:shortVersionString>
-            <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.45 -apple-system,BlinkMacSystemFont,system-ui,sans-serif;color:#1d1d1f;margin:0;padding:2px 4px}h3{font-size:13px;font-weight:600;margin:0 0 6px}ul{margin:0;padding-left:18px}li{margin:0 0 4px}code{font:12px ui-monospace,Menlo,monospace}@media (prefers-color-scheme: dark){body{color:#f5f5f7}}</style><h3>What's new in Keeploop 0.25.0</h3><ul><li>Upgrade to Pro without leaving Keeploop: checkout opens in the app, and Pro turns on as soon as you pay.</li><li>The activation link in your Pro email turns Pro on right away.</li><li>Settings shows how many trial days are left, with an Upgrade button.</li><li>After setup, Keeploop shows a first question to ask your AI app.</li><li>Grok and Grok Bot have their own setup steps.</li><li>After an update, AI apps are asked to reconnect instead of failing.</li></ul>]]></description>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.0/Keeploop-0.25.0.dmg" length="44686235" type="application/octet-stream" sparkle:edSignature="Ws6/LAnZplxPsbOmzDK+jOCIaft82TzOcjFJGJBZp9m0OmEI3v1RLIbnGMImb0DJqNyFH046eHJIcilfcMlfAA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.0/Keeploop47-46.delta" sparkle:deltaFrom="46" length="816574" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3F92fQExJ6yAc0OfZZKzpP67tDvAIj1wPl4TqGP6z3CUYIGCrnJS/H3OuhrFc6/fB35T6jvZr+1s4q5gvHRODg=="/>
-                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.0/Keeploop47-45.delta" sparkle:deltaFrom="45" length="813426" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Gp75iICrruzwqm7ZxMngJQIilu8F5Cqpxzp3ZddvNGyGZMahKC0Wlg8Po+mJxxBOyt2wfeUObm5H8omZ6YgoDQ=="/>
             </sparkle:deltas>
         </item>
         <item>
