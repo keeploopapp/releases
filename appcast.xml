@@ -3,6 +3,21 @@
     <channel>
         <title>Keeploop</title>
         <item>
+            <title>0.25.10</title>
+            <pubDate>Thu, 15 Oct 2026 00:05:09 -0500</pubDate>
+            <sparkle:version>57</sparkle:version>
+            <sparkle:shortVersionString>0.25.10</sparkle:shortVersionString>
+            <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.45 -apple-system,BlinkMacSystemFont,system-ui,sans-serif;color:#1d1d1f;margin:0;padding:2px 4px}h3{font-size:13px;font-weight:600;margin:0 0 6px}ul{margin:0;padding-left:18px}li{margin:0 0 4px}code{font:12px ui-monospace,Menlo,monospace}@media (prefers-color-scheme: dark){body{color:#f5f5f7}}</style><h3>What's new in Keeploop 0.25.10</h3><ul><li>AI apps can add Not from, Subject doesn't have and Message doesn't have to an existing monitor: the monitor tools now explain those filters.</li><li>If an AI app asks for something this version of Keeploop doesn't know, Keeploop says so instead of ignoring it.</li></ul>]]></description>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.10/Keeploop-0.25.10.dmg" length="45194172" type="application/octet-stream" sparkle:edSignature="nqhbfEGQKWatxlWDKiX9YFWjRuXCqIw6WMFxGC3EUzLVZXTDrNN8tWuBZ07+IJqHmuLchSpHGvSV4xyPQWIcCw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.10/Keeploop57-56.delta" sparkle:deltaFrom="56" length="70458" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DmHEhwWPYR35pw8ezdq+Trk3PHxN/DQ0taoe45pgoPJ7L2Oq4Okm7AV99CF1XaAyIzTRG6hHGTJDTrO/xtoaAA=="/>
+                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.10/Keeploop57-55.delta" sparkle:deltaFrom="55" length="479514" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Gto68RUicReGYmJcxjlnrO1HTEH81zWqvTj3VjGt5ZwimnWPo44KuZJ0Fkz+8brcp2TlA1RzAlyvGyeAgIe4Ag=="/>
+                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.10/Keeploop57-54.delta" sparkle:deltaFrom="54" length="892518" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XtYolnifSbW/RD11IcfA8qK0luixa4UkdxTSxQL+k9+Le9LRN07il9k4KD2lOvRmBd30znREe5bm6LqYvEjqCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.25.9</title>
             <pubDate>Wed, 14 Oct 2026 16:04:34 -0500</pubDate>
             <sparkle:version>56</sparkle:version>
@@ -30,21 +45,6 @@
                 <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.8/Keeploop55-54.delta" sparkle:deltaFrom="54" length="850182" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="iojRJfQf06tAqmELURdT+AJijXbZoKQVta75bucztBz9RdB1smfRZSrCIWaCOjS2IWZesQ9FyxDfgsLv1GZSCw=="/>
                 <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.8/Keeploop55-53.delta" sparkle:deltaFrom="53" length="897678" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1hWKLju23hqRyqOKV0v6JwcRO/5Bbgi7/zbjuilcpR9thDLv+shG4sVs2nk+LWor1Bftok9cypZSvsb/k8nCAw=="/>
                 <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.8/Keeploop55-52.delta" sparkle:deltaFrom="52" length="961270" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="v0P0xtaqBr3DcoT8f9Pmj8ufPrP3Fw148t8LmQxXJXsTERQaYrMZl3gbwZk+u1kaifgtNQ4cFvOG+DCplLegAg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.25.7</title>
-            <pubDate>Tue, 13 Oct 2026 18:19:38 -0500</pubDate>
-            <sparkle:version>54</sparkle:version>
-            <sparkle:shortVersionString>0.25.7</sparkle:shortVersionString>
-            <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.45 -apple-system,BlinkMacSystemFont,system-ui,sans-serif;color:#1d1d1f;margin:0;padding:2px 4px}h3{font-size:13px;font-weight:600;margin:0 0 6px}ul{margin:0;padding-left:18px}li{margin:0 0 4px}code{font:12px ui-monospace,Menlo,monospace}@media (prefers-color-scheme: dark){body{color:#f5f5f7}}</style><h3>What's new in Keeploop 0.25.7</h3><ul><li>AI apps on the web and phone can now save, edit and delete drafts and send new emails. Each one asks you first on the Mac, showing the account and every recipient, unless you allow it in Settings &gt; Permissions. With Mail at Read and write in Settings &gt; Remote access, every mail write asks first, including replies.</li><li>Editing a draft now respects Block rules on its Cc recipients.</li><li>The "Keep Keeploop up to date" switch is now first on the setup plan page, so it is easier to find.</li></ul>]]></description>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.7/Keeploop-0.25.7.dmg" length="45115989" type="application/octet-stream" sparkle:edSignature="gQmVtpRoDmKdYJdzpqSmXJL82guq2wM6a/Ns6HhaQ16GaMqjYxzaPfC/e13s6LT4ckupde0SyJ27tKQfpiPDDQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.7/Keeploop54-53.delta" sparkle:deltaFrom="53" length="509218" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="meh7CCSYNsVWbCnx4hIR3p2IlYJYNhe53wuSQ8NZLyRJAHIQduq5cpW2CSmbhQEqNIN3hUzR19yQ08n+PT0WBg=="/>
-                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.7/Keeploop54-52.delta" sparkle:deltaFrom="52" length="728942" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rTjutHkMk0DtZ+5TLPk/OV/yue+xhDPefA7c5HcZhQWveQeW/tBW8yyU6lrRC60ET9yvVKIh2P3onlt/XwayAA=="/>
-                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.25.7/Keeploop54-51.delta" sparkle:deltaFrom="51" length="1013294" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VH0V4fNDDjL6czxbprsxv1SWpT6rQQVa12N8qWbFuQbxBwJVigMEmR5uMAUNk88NiJs7raTthCisNRLbKEHZBw=="/>
             </sparkle:deltas>
         </item>
         <item>
