@@ -3,6 +3,21 @@
     <channel>
         <title>Keeploop</title>
         <item>
+            <title>0.27.7</title>
+            <pubDate>Wed, 28 Oct 2026 23:43:28 -0500</pubDate>
+            <sparkle:version>67</sparkle:version>
+            <sparkle:shortVersionString>0.27.7</sparkle:shortVersionString>
+            <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.45 -apple-system,BlinkMacSystemFont,system-ui,sans-serif;color:#1d1d1f;margin:0;padding:2px 4px}h3{font-size:13px;font-weight:600;margin:0 0 6px}ul{margin:0;padding-left:18px}li{margin:0 0 4px}code{font:12px ui-monospace,Menlo,monospace}@media (prefers-color-scheme: dark){body{color:#f5f5f7}}</style><h3>What's new in Keeploop 0.27.7</h3><ul><li>Call and voicemail alerts name the caller from your Contacts first. A number that is not in Contacts shows the carrier's caller ID marked "(caller ID)", so it never passes for a contact; recent_calls keeps the caller ID in caller_id_name.</li><li>Agents on this Mac can choose how a monitor wakes them when their chat is closed: open it in your terminal or just notify you (wake_mode). Background runs are still chosen only in Settings &gt; Monitors.</li><li>A session can take over every monitor on a route with claim_route, keeping each monitor and its settings, instead of re-creating them after a handoff. Matches already shown to the previous session are not shown again.</li><li>Codex delivery keeps working after a Node upgrade: a saved Codex location that no longer exists falls back to finding codex automatically (Keeploop warns in its setup check), and npm's codex launcher is swapped for the real Codex program it ships with.</li><li>Settings &gt; Alerts and destinations shows "Saved" for a moment after each change is written, and the Codex location shows which codex Keeploop will use.</li></ul>]]></description>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.27.7/Keeploop-0.27.7.dmg" length="45595763" type="application/octet-stream" sparkle:edSignature="N8/qtyVgIVUeUwlWShKwMTcqT8AOH4ZzUPwnua1yDtLzmHJtIu7eIdIgfD5mnXhdAP9+b8U4Kp5nUIHV1uOaDQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.27.7/Keeploop67-66.delta" sparkle:deltaFrom="66" length="791202" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ssm31QFZPcGqcHYhC4mFJ/CNKSWkbK66ACmmJMvJwWRvVvyoYLgsAQ8hnU8jYjV76tPCxlU60qGq0bi1C2H8Dg=="/>
+                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.27.7/Keeploop67-65.delta" sparkle:deltaFrom="65" length="973674" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="SeEPxOqK0yr+rlWk1/TQHEPbxF334lWv1R+HMSFKnclcSz9S22gCZ8WgwEBrdk6Q+FP1l1A0QJ8LupKokd3GBw=="/>
+                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.27.7/Keeploop67-64.delta" sparkle:deltaFrom="64" length="1114894" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8s3EbPErr6SQcxRKzfjykJXhAcc9gbSjuksI4VrRaBf11nCL035NymReQeqyR4mhP4lqUWkfr7/qpEv6dPsIBQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.27.6</title>
             <pubDate>Wed, 28 Oct 2026 20:49:02 -0500</pubDate>
             <sparkle:version>66</sparkle:version>
@@ -29,21 +44,6 @@
             <sparkle:deltas>
                 <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.27.5/Keeploop65-64.delta" sparkle:deltaFrom="64" length="934202" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="L/QRha8vf4u/pJL0uaz1bD/GW0go69AgxwH9KynnV+HM971km5FYDzWpCTS6dskF+JL+Lck8GM7214z15gCHCQ=="/>
                 <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.27.5/Keeploop65-63.delta" sparkle:deltaFrom="63" length="983094" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0F4kPwPY/H3CK2BR7OMqJR/2C0ckkY5qAwEwyfC0xtZXgemPOkuajHi1DpcV4PufJ+VCi5AnMoA6NhrV0lbzDA=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.27.4</title>
-            <pubDate>Wed, 28 Oct 2026 14:28:23 -0500</pubDate>
-            <sparkle:version>64</sparkle:version>
-            <sparkle:shortVersionString>0.27.4</sparkle:shortVersionString>
-            <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.45 -apple-system,BlinkMacSystemFont,system-ui,sans-serif;color:#1d1d1f;margin:0;padding:2px 4px}h3{font-size:13px;font-weight:600;margin:0 0 6px}ul{margin:0;padding-left:18px}li{margin:0 0 4px}code{font:12px ui-monospace,Menlo,monospace}@media (prefers-color-scheme: dark){body{color:#f5f5f7}}</style><h3>What's new in Keeploop 0.27.4</h3><ul><li>Monitors can now end on any date, or never. Settings &gt; Monitors has an Ends control (On a date or Never) with quick Extend buttons, and the 30-day limit is gone. AI apps still set 24 hours unless you or they choose otherwise.</li><li>The details sheet of an ended monitor scrolls again.</li><li>A monitor set to never end stays that way: when ChatGPT renews it, Keeploop no longer adds an end date or moves an end date earlier.</li><li>Claude Code sessions that move to another git worktree of the same project no longer duplicate their monitors. When the old worktree folder is gone, its monitor moves to the new one; otherwise the AI app is told about the monitor in the other worktree and can move it. A monitor whose session is still open is never moved.</li><li>The monitor sheet's button now says Close, and rows no longer blur behind the buttons.</li></ul>]]></description>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.27.4/Keeploop-0.27.4.dmg" length="45419330" type="application/octet-stream" sparkle:edSignature="0IKuPQIieZTsPunlrfwRs8cYKKd9E7VQbOQPLKIrmLqTEM61o9zmQl/jyiXN/A5ocl+vNzpkrgxwns+oVoDmCQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.27.4/Keeploop64-63.delta" sparkle:deltaFrom="63" length="597682" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Lvsdl2d76dlGawysqggK68UqFqUDE2RuuZI9vqnfBCNY4pKXStoUOpzgU+9pDG21DxJfR+ts1acFlw41ubgtDQ=="/>
-                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.27.4/Keeploop64-62.delta" sparkle:deltaFrom="62" length="599650" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ffPHFPSESlv8uUBSiQbkQy6yxA1f9v+UHTRLRGCfdk6MhuzEf3Dj3sHW61CDbbXIip+5eA6WpiiS4iiPP2rsAA=="/>
-                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.27.4/Keeploop64-61.delta" sparkle:deltaFrom="61" length="619318" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="G70944Q7Q2Yyf52lZadyGl9TJa0U5vDQbSpRj0G2XNzQzXdelWHVHJ4Pph+fdaYo6tZPp598gUaN0zzjcb+JBA=="/>
             </sparkle:deltas>
         </item>
         <item>
