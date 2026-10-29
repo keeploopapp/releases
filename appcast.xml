@@ -3,6 +3,21 @@
     <channel>
         <title>Keeploop</title>
         <item>
+            <title>0.27.8</title>
+            <pubDate>Thu, 29 Oct 2026 08:40:55 -0500</pubDate>
+            <sparkle:version>68</sparkle:version>
+            <sparkle:shortVersionString>0.27.8</sparkle:shortVersionString>
+            <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.45 -apple-system,BlinkMacSystemFont,system-ui,sans-serif;color:#1d1d1f;margin:0;padding:2px 4px}h3{font-size:13px;font-weight:600;margin:0 0 6px}ul{margin:0;padding-left:18px}li{margin:0 0 4px}code{font:12px ui-monospace,Menlo,monospace}@media (prefers-color-scheme: dark){body{color:#f5f5f7}}</style><h3>What's new in Keeploop 0.27.8</h3><ul><li>Mail monitors can skip newsletters and promos: turn on "Skip bulk mail" in Settings &gt; Monitors (agents: exclude_bulk). Senders you add under "Always allow" (agents: bulk_allow) still get through, for services and clients that send list mail you want to see.</li></ul>]]></description>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.27.8/Keeploop-0.27.8.dmg" length="45638042" type="application/octet-stream" sparkle:edSignature="d2lw/kAp9mKCwYKJ4jnq223HwICfWwEd6oWrHI8TyVTPVOSaCVqj2tMIlnPUJJnr+IkW6W1vI9pkIhQ2bIoDBw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.27.8/Keeploop68-67.delta" sparkle:deltaFrom="67" length="699090" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="a45IHtANKt1wQo1tQr5iJ4vFMzMJr+Ck20dnrnYkzqjLO/2g6kBIMV5/G5B8YCQznSiBQ+buM8as0zaltFwaBg=="/>
+                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.27.8/Keeploop68-66.delta" sparkle:deltaFrom="66" length="876814" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BfzXXcKb0pGH9GcfOQXudC1HxmzcmmpNm0MjIHIuUsCGlM7f0c7Upp0ApM2e9ODkRjtsZABrjkwBs6PHOyXnAA=="/>
+                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.27.8/Keeploop68-65.delta" sparkle:deltaFrom="65" length="1001346" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ni7UirZfZ9KFx4Ugbnn2LzZEfDJZ/rHxtEbiNoMIRKxPx8UCm3c6c8jUUgmIAUcz6HunCIC6nBJWq1GRbC/cBQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.27.7</title>
             <pubDate>Wed, 28 Oct 2026 23:43:28 -0500</pubDate>
             <sparkle:version>67</sparkle:version>
@@ -30,20 +45,6 @@
                 <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.27.6/Keeploop66-65.delta" sparkle:deltaFrom="65" length="820614" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="n5w91yqar+OsaoSfDpgUX/MDYT4mB0F1iMzvsmQF9R/nbAM0Tfi9YoG4C1YhT2byXtRh7igtah5BPFOXudWgBA=="/>
                 <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.27.6/Keeploop66-64.delta" sparkle:deltaFrom="64" length="1030642" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="38bFPLyZSI8bsTg5w9MG8IQxP+HuThzMiWYWc3ghXIaMfxUDq2M6qswHG82RxyZ5uzKMA7HUPFcbxeQEaRNSBw=="/>
                 <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.27.6/Keeploop66-63.delta" sparkle:deltaFrom="63" length="1064606" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rYx+u3XH0amA/V3XTETQZXO32KF18Z6sTQlCxZ9ui85rObuwVUuupzwr0dds2DVlnDe7eEnqfcYi0OACH/BuCg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.27.5</title>
-            <pubDate>Wed, 28 Oct 2026 18:49:54 -0500</pubDate>
-            <sparkle:version>65</sparkle:version>
-            <sparkle:shortVersionString>0.27.5</sparkle:shortVersionString>
-            <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.45 -apple-system,BlinkMacSystemFont,system-ui,sans-serif;color:#1d1d1f;margin:0;padding:2px 4px}h3{font-size:13px;font-weight:600;margin:0 0 6px}ul{margin:0;padding-left:18px}li{margin:0 0 4px}code{font:12px ui-monospace,Menlo,monospace}@media (prefers-color-scheme: dark){body{color:#f5f5f7}}</style><h3>What's new in Keeploop 0.27.5</h3><ul><li>Settings &gt; Alerts and destinations has a Notifications table. For each kind of notification (monitor matches, agent resumed, wake asks, approvals, sending, promises, monitor changes, connection, account) choose a Mac banner and a sound; monitor matches, wake asks, approvals and promises can also go to your phone and Slack. The switch for messages to agent sessions moved into the table too. Sounds are off until you turn them on. Asks that block an action always show on the Mac.</li><li>One banner per monitor match. When the match's agent asks to resume, or runs in the background, that banner takes the match banner's place instead of adding a second one, and the phone gets the question only.</li><li>Monitors an agent made alert only when no agent picks up the match ("Only when no agent picks it up", on by default). An open session that already got the match no longer also shows a banner.</li><li>When an agent could not run, the banner always reads like "Claude Code not resumed: Invoices", with the reason below.</li><li>No more echo banners: no "Added to calendar" after you click Add, "Tracking" replaces "Promise found", and no "set a monitor" banner when an agent on this Mac made the change in the chat in front of you.</li><li>The older ntfy phone setting moves into the ntfy destination, so a match is never pushed to your phone twice.</li><li>Monitors can match everything for an agent that reads a route: <code>match_all</code> on the mail, Messages and Slack monitor tools (with <code>routes</code> only). For Slack it means every direct message, every group DM and every mention of you; texts cover phone numbers, email handles and short codes.</li><li>Mail monitors take a mailbox, such as INBOX. Gmail's inbox counts, though Gmail files that mail under All Mail.</li><li>A new monitor with routes starts with its Mac banner and phone push off, since an agent reads it and the source app shows its own banner. Phone destinations you add later stay off for it too. Turn them on per monitor in Settings &gt; Monitors. Existing monitors keep their settings.</li></ul>]]></description>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.27.5/Keeploop-0.27.5.dmg" length="45520495" type="application/octet-stream" sparkle:edSignature="MMHebhU1IK6Zlp4VtObqCjftfw1CdtoV0ZvZVdWS2zI+2nFkVXvnyr1/Mo4zooTHVA7ECzDfYmQl4AoqnFKgAA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.27.5/Keeploop65-64.delta" sparkle:deltaFrom="64" length="934202" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="L/QRha8vf4u/pJL0uaz1bD/GW0go69AgxwH9KynnV+HM971km5FYDzWpCTS6dskF+JL+Lck8GM7214z15gCHCQ=="/>
-                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.27.5/Keeploop65-63.delta" sparkle:deltaFrom="63" length="983094" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0F4kPwPY/H3CK2BR7OMqJR/2C0ckkY5qAwEwyfC0xtZXgemPOkuajHi1DpcV4PufJ+VCi5AnMoA6NhrV0lbzDA=="/>
             </sparkle:deltas>
         </item>
         <item>
