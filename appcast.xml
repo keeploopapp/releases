@@ -3,6 +3,21 @@
     <channel>
         <title>Keeploop</title>
         <item>
+            <title>0.27.10</title>
+            <pubDate>Thu, 29 Oct 2026 20:03:56 -0400</pubDate>
+            <sparkle:version>70</sparkle:version>
+            <sparkle:shortVersionString>0.27.10</sparkle:shortVersionString>
+            <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.45 -apple-system,BlinkMacSystemFont,system-ui,sans-serif;color:#1d1d1f;margin:0;padding:2px 4px}h3{font-size:13px;font-weight:600;margin:0 0 6px}ul{margin:0;padding-left:18px}li{margin:0 0 4px}code{font:12px ui-monospace,Menlo,monospace}@media (prefers-color-scheme: dark){body{color:#f5f5f7}}</style><h3>What's new in Keeploop 0.27.10</h3><ul><li>Texts you send now show when they were delivered and read: get_conversation and search_messages give delivered_at and read_at on your own messages (read_at only when the other person shares read receipts). send_message returns the message's guid, and get_conversation(guid=...) checks just that message.</li></ul>]]></description>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://keeploop.app/api/update/v0.27.10/Keeploop-0.27.10.dmg" length="45711216" type="application/octet-stream" sparkle:edSignature="e4HeN+3ZB4HXtNysEh/XxVDtaRYYAH+DWuy0UsU0ddzT2zLXBXFSf3pM16GZ8KPP79xVROeCABPWNyRkZxkPBg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://keeploop.app/api/update/v0.27.10/Keeploop70-69.delta" sparkle:deltaFrom="69" length="71390" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1PhGC8JaphxI/1AQXHWIOcnzsx3FZrpzY2VB49wNoVcBh7o6ODcc2yrsEj+5sl7YHeTvaJ8aLLNrZEqhxgi9Cg=="/>
+                <enclosure url="https://keeploop.app/api/update/v0.27.10/Keeploop70-68.delta" sparkle:deltaFrom="68" length="1426554" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="G1THab3Ju87eFsach4Nju/gg2BBxKC9RarK6VhYUVqCfdQZI+46kz6kO8fREiYuC7niI3llWYk8UCtMc2SgQDQ=="/>
+                <enclosure url="https://keeploop.app/api/update/v0.27.10/Keeploop70-67.delta" sparkle:deltaFrom="67" length="1440346" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GHnpRpKBRIIg7UQ+jkwsVD91mHNIsrlFJbanRCp0WnKBPp2xtDfVqSxKXMoujsQdICRkU3ytfybaSpdtg5Z5BQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.27.9</title>
             <pubDate>Thu, 29 Oct 2026 14:04:07 -0500</pubDate>
             <sparkle:version>69</sparkle:version>
@@ -30,21 +45,6 @@
                 <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.27.8/Keeploop68-67.delta" sparkle:deltaFrom="67" length="699090" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="a45IHtANKt1wQo1tQr5iJ4vFMzMJr+Ck20dnrnYkzqjLO/2g6kBIMV5/G5B8YCQznSiBQ+buM8as0zaltFwaBg=="/>
                 <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.27.8/Keeploop68-66.delta" sparkle:deltaFrom="66" length="876814" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="BfzXXcKb0pGH9GcfOQXudC1HxmzcmmpNm0MjIHIuUsCGlM7f0c7Upp0ApM2e9ODkRjtsZABrjkwBs6PHOyXnAA=="/>
                 <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.27.8/Keeploop68-65.delta" sparkle:deltaFrom="65" length="1001346" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ni7UirZfZ9KFx4Ugbnn2LzZEfDJZ/rHxtEbiNoMIRKxPx8UCm3c6c8jUUgmIAUcz6HunCIC6nBJWq1GRbC/cBQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.27.7</title>
-            <pubDate>Wed, 28 Oct 2026 23:43:28 -0500</pubDate>
-            <sparkle:version>67</sparkle:version>
-            <sparkle:shortVersionString>0.27.7</sparkle:shortVersionString>
-            <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.45 -apple-system,BlinkMacSystemFont,system-ui,sans-serif;color:#1d1d1f;margin:0;padding:2px 4px}h3{font-size:13px;font-weight:600;margin:0 0 6px}ul{margin:0;padding-left:18px}li{margin:0 0 4px}code{font:12px ui-monospace,Menlo,monospace}@media (prefers-color-scheme: dark){body{color:#f5f5f7}}</style><h3>What's new in Keeploop 0.27.7</h3><ul><li>Call and voicemail alerts name the caller from your Contacts first. A number that is not in Contacts shows the carrier's caller ID marked "(caller ID)", so it never passes for a contact; recent_calls keeps the caller ID in caller_id_name.</li><li>Agents on this Mac can choose how a monitor wakes them when their chat is closed: open it in your terminal or just notify you (wake_mode). Background runs are still chosen only in Settings &gt; Monitors.</li><li>A session can take over every monitor on a route with claim_route, keeping each monitor and its settings, instead of re-creating them after a handoff. Matches already shown to the previous session are not shown again.</li><li>Codex delivery keeps working after a Node upgrade: a saved Codex location that no longer exists falls back to finding codex automatically (Keeploop warns in its setup check), and npm's codex launcher is swapped for the real Codex program it ships with.</li><li>Settings &gt; Alerts and destinations shows "Saved" for a moment after each change is written, and the Codex location shows which codex Keeploop will use.</li></ul>]]></description>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.27.7/Keeploop-0.27.7.dmg" length="45595763" type="application/octet-stream" sparkle:edSignature="N8/qtyVgIVUeUwlWShKwMTcqT8AOH4ZzUPwnua1yDtLzmHJtIu7eIdIgfD5mnXhdAP9+b8U4Kp5nUIHV1uOaDQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.27.7/Keeploop67-66.delta" sparkle:deltaFrom="66" length="791202" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ssm31QFZPcGqcHYhC4mFJ/CNKSWkbK66ACmmJMvJwWRvVvyoYLgsAQ8hnU8jYjV76tPCxlU60qGq0bi1C2H8Dg=="/>
-                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.27.7/Keeploop67-65.delta" sparkle:deltaFrom="65" length="973674" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="SeEPxOqK0yr+rlWk1/TQHEPbxF334lWv1R+HMSFKnclcSz9S22gCZ8WgwEBrdk6Q+FP1l1A0QJ8LupKokd3GBw=="/>
-                <enclosure url="https://github.com/keeploopapp/releases/releases/download/v0.27.7/Keeploop67-64.delta" sparkle:deltaFrom="64" length="1114894" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="8s3EbPErr6SQcxRKzfjykJXhAcc9gbSjuksI4VrRaBf11nCL035NymReQeqyR4mhP4lqUWkfr7/qpEv6dPsIBQ=="/>
             </sparkle:deltas>
         </item>
         <item>
