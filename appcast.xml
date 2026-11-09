@@ -3,6 +3,21 @@
     <channel>
         <title>Keeploop</title>
         <item>
+            <title>0.27.17</title>
+            <pubDate>Mon, 09 Nov 2026 08:32:49 -0600</pubDate>
+            <sparkle:version>78</sparkle:version>
+            <sparkle:shortVersionString>0.27.17</sparkle:shortVersionString>
+            <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.45 -apple-system,BlinkMacSystemFont,system-ui,sans-serif;color:#1d1d1f;margin:0;padding:2px 4px}h3{font-size:13px;font-weight:600;margin:0 0 6px}ul{margin:0;padding-left:18px}li{margin:0 0 4px}code{font:12px ui-monospace,Menlo,monospace}@media (prefers-color-scheme: dark){body{color:#f5f5f7}}</style><h3>What's new in Keeploop 0.27.17</h3><ul><li>Monitor matches pushed to an agent session now end each line with the match's hit id, so the session can confirm exactly what it was handed with ack_hits.</li></ul>]]></description>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://keeploop.app/api/update/v0.27.17/Keeploop-0.27.17.dmg" length="45816255" type="application/octet-stream" sparkle:edSignature="2da4MrdkSnI5Ukqg+Pgi+7JLr6P/6/Ys6+S5VMePCcc/6lVcg8MKkm/BFmcd7rA62ELo81fSGCyFbgfYsX62AQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://keeploop.app/api/update/v0.27.17/Keeploop78-77.delta" sparkle:deltaFrom="77" length="98646" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="z+g71bOUKHGH+9qzbzpwauzqknSNAvIEXF4XPnZieoTY1+r9TgImrZueyZSv+RMMSwFrVWxMjm7i9MVPGqm2Dw=="/>
+                <enclosure url="https://keeploop.app/api/update/v0.27.17/Keeploop78-76.delta" sparkle:deltaFrom="76" length="136846" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="w/WM9izQLC6zUzQXc+GYfSE4XTVp1HGh3QlsJj3V8ilaOWaGny/r945JW8gg4d+QSAtlJbb9a0nqYVcCJ7aOBQ=="/>
+                <enclosure url="https://keeploop.app/api/update/v0.27.17/Keeploop78-75.delta" sparkle:deltaFrom="75" length="140338" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/1zA31MigMeGB4U/tQpehiiPN/txxOCC3l3uyUC+BxsvaY5dNDLJMVghgDd9/yVyJm8XyH8I2rYabOtLpP1JAA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.27.16</title>
             <pubDate>Fri, 06 Nov 2026 10:12:54 -0600</pubDate>
             <sparkle:version>77</sparkle:version>
@@ -30,21 +45,6 @@
                 <enclosure url="https://keeploop.app/api/update/v0.27.15/Keeploop76-75.delta" sparkle:deltaFrom="75" length="67810" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tUQtjD6b/sz5gS4ogxOKcNt4bH/f6BW6Sc/fEtdA5YwQKlgp7YoRGuYL+xVOHb8Vp0+glXZ4Z2rSUfGteqVDCg=="/>
                 <enclosure url="https://keeploop.app/api/update/v0.27.15/Keeploop76-74.delta" sparkle:deltaFrom="74" length="488990" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rD33QHGEa7aG8K9iNL8PCObSkBSnATUYsQY4rMmJqt09e2XVnqC0DrXRrP+ByHPY8s0yjV/rQVGEBJDq0fGPBQ=="/>
                 <enclosure url="https://keeploop.app/api/update/v0.27.15/Keeploop76-73.delta" sparkle:deltaFrom="73" length="502574" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="f0At4YzcnCP3PWLhjFxl5PelkmHe4eINzgSB3IV28xQQOCBhIUoovgtKaxcbWD51F4iPtrwS7wETEHbCKQjGAQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.27.14</title>
-            <pubDate>Thu, 05 Nov 2026 07:58:36 -0600</pubDate>
-            <sparkle:version>75</sparkle:version>
-            <sparkle:shortVersionString>0.27.14</sparkle:shortVersionString>
-            <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.45 -apple-system,BlinkMacSystemFont,system-ui,sans-serif;color:#1d1d1f;margin:0;padding:2px 4px}h3{font-size:13px;font-weight:600;margin:0 0 6px}ul{margin:0;padding-left:18px}li{margin:0 0 4px}code{font:12px ui-monospace,Menlo,monospace}@media (prefers-color-scheme: dark){body{color:#f5f5f7}}</style><h3>What's new in Keeploop 0.27.14</h3><ul><li>Mail matches now say which conversation they belong to: agents reading a monitor get conversation_id on each mail match, the same thread id search_mail uses, so they can tell a reply from new mail without guessing by subject.</li></ul>]]></description>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://keeploop.app/api/update/v0.27.14/Keeploop-0.27.14.dmg" length="45781879" type="application/octet-stream" sparkle:edSignature="xEql5yiEx15/3twDo4M0R4YdIeG0L+DlZRrIxr5fGq0sm6LHKjNjfU1Xqulq11D8MurjDhweHMixeU8NnrjEAw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://keeploop.app/api/update/v0.27.14/Keeploop75-74.delta" sparkle:deltaFrom="74" length="482942" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="pEwaUUUQCpHtxy1iXSE0LjAOrOb+fX1/naJCm29cuqihs6HqquVaFGvOU2LKGZHIR8yASLF667++NxokJcJYDw=="/>
-                <enclosure url="https://keeploop.app/api/update/v0.27.14/Keeploop75-73.delta" sparkle:deltaFrom="73" length="496470" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="udhAwjNSfYqFEJlATZLDx7aViE+hHHMjiLySo5zwBnLY7HiSwPojr47LXlAqmSznQ7GzHr6CfKRie6P0VCPjAg=="/>
-                <enclosure url="https://keeploop.app/api/update/v0.27.14/Keeploop75-71.delta" sparkle:deltaFrom="71" length="792510" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nnv5SNYcR705wtHhndOiQSSLjAYlSB/mJrjj7yC43+YxtE8jtZai6fW3ZQLe3uECTnum9BLhSpwTBhx4oRbVDQ=="/>
             </sparkle:deltas>
         </item>
         <item>
