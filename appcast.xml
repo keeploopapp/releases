@@ -3,6 +3,21 @@
     <channel>
         <title>Keeploop</title>
         <item>
+            <title>0.27.18</title>
+            <pubDate>Wed, 11 Nov 2026 12:29:41 -0600</pubDate>
+            <sparkle:version>79</sparkle:version>
+            <sparkle:shortVersionString>0.27.18</sparkle:shortVersionString>
+            <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.45 -apple-system,BlinkMacSystemFont,system-ui,sans-serif;color:#1d1d1f;margin:0;padding:2px 4px}h3{font-size:13px;font-weight:600;margin:0 0 6px}ul{margin:0;padding-left:18px}li{margin:0 0 4px}code{font:12px ui-monospace,Menlo,monospace}@media (prefers-color-scheme: dark){body{color:#f5f5f7}}</style><h3>What's new in Keeploop 0.27.18</h3><ul><li>Remote access no longer turns itself off when you quit and reopen Keeploop. Once you pair your Mac and Remote has connected, it comes back on by itself after a restart. If you turn Remote off, it stays off.</li></ul>]]></description>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <enclosure url="https://keeploop.app/api/update/v0.27.18/Keeploop-0.27.18.dmg" length="45820371" type="application/octet-stream" sparkle:edSignature="C06QnMj9K4fKDMLoUO2WZwieAYe+SGlHOHE8ILC8XirhFlHYWHfg09uEuUffG0tCgcLPmpkIYhvujbTnaLxMAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://keeploop.app/api/update/v0.27.18/Keeploop79-78.delta" sparkle:deltaFrom="78" length="458054" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="mlEGohPnaFYzTj7c12x06Fb/m5CpIBbp2vGNZnT3Ueda6+1WuGoOgViXrdmfafwFx2azWP7vxwiQ6ApkrCuIBg=="/>
+                <enclosure url="https://keeploop.app/api/update/v0.27.18/Keeploop79-77.delta" sparkle:deltaFrom="77" length="489738" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rMsvdtoAH9vXLyx847kgnRVWGkeNv5PymdeMaAxHTivAHPxY7w5yWPgURMuUvdnaOC0VszmQiOhEbwNT+CZLBg=="/>
+                <enclosure url="https://keeploop.app/api/update/v0.27.18/Keeploop79-76.delta" sparkle:deltaFrom="76" length="531054" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="KMP0EHl3obHocNtFyLldsVYHBIv0tZcmlPMwXpDv/gLNIxjqEe4XuJZP2F3Pc/Y8FSqF5n4lf+mgnjzxpjGDDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>0.27.17</title>
             <pubDate>Mon, 09 Nov 2026 08:32:49 -0600</pubDate>
             <sparkle:version>78</sparkle:version>
@@ -30,21 +45,6 @@
                 <enclosure url="https://keeploop.app/api/update/v0.27.16/Keeploop77-76.delta" sparkle:deltaFrom="76" length="101310" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1E5bwIeVEDCOi2frSv9Zzp+Iqku2+qggDAqRe8HuuwUHTB0st87mDfiTYiyyQdfRQj/xr0F7abRMVS2F9IcSAg=="/>
                 <enclosure url="https://keeploop.app/api/update/v0.27.16/Keeploop77-75.delta" sparkle:deltaFrom="75" length="106054" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xeVxD0b+RZWekADvc8ZFASbMVQ5kOW1GuzRokhvW+baN4mVR5ifV/P8zQRt2t50sjX39DFLWsJBZOmLUQqrwBg=="/>
                 <enclosure url="https://keeploop.app/api/update/v0.27.16/Keeploop77-74.delta" sparkle:deltaFrom="74" length="522710" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2yVHO4fY3cwuoqDDhE1iUMMlOLzHW1pzrR08XtEiaOZ7DrgstcW/dMCN9yL/Rg/S3jYGulLR3gK7VPgYxb/KDQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>0.27.15</title>
-            <pubDate>Thu, 05 Nov 2026 13:01:44 -0600</pubDate>
-            <sparkle:version>76</sparkle:version>
-            <sparkle:shortVersionString>0.27.15</sparkle:shortVersionString>
-            <description><![CDATA[<style>:root{color-scheme:light dark}body{font:13px/1.45 -apple-system,BlinkMacSystemFont,system-ui,sans-serif;color:#1d1d1f;margin:0;padding:2px 4px}h3{font-size:13px;font-weight:600;margin:0 0 6px}ul{margin:0;padding-left:18px}li{margin:0 0 4px}code{font:12px ui-monospace,Menlo,monospace}@media (prefers-color-scheme: dark){body{color:#f5f5f7}}</style><h3>What's new in Keeploop 0.27.15</h3><ul><li>Keeploop no longer keeps a CPU core busy while a mail monitor waits for a message body that Mail has not downloaded yet. Finding a message on disk used to search every folder of the account on each check; it now goes straight to the file. Monitors match exactly as before.</li></ul>]]></description>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <enclosure url="https://keeploop.app/api/update/v0.27.15/Keeploop-0.27.15.dmg" length="45790452" type="application/octet-stream" sparkle:edSignature="NK+37fUGKba4eGpv6369rHtbpM1BiZPRaFErf9ET3btRiR/JnCyddgmdx4q61zyGKxDUKG2qkseHb3/Bm9+0Dg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://keeploop.app/api/update/v0.27.15/Keeploop76-75.delta" sparkle:deltaFrom="75" length="67810" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tUQtjD6b/sz5gS4ogxOKcNt4bH/f6BW6Sc/fEtdA5YwQKlgp7YoRGuYL+xVOHb8Vp0+glXZ4Z2rSUfGteqVDCg=="/>
-                <enclosure url="https://keeploop.app/api/update/v0.27.15/Keeploop76-74.delta" sparkle:deltaFrom="74" length="488990" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="rD33QHGEa7aG8K9iNL8PCObSkBSnATUYsQY4rMmJqt09e2XVnqC0DrXRrP+ByHPY8s0yjV/rQVGEBJDq0fGPBQ=="/>
-                <enclosure url="https://keeploop.app/api/update/v0.27.15/Keeploop76-73.delta" sparkle:deltaFrom="73" length="502574" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="976432" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="f0At4YzcnCP3PWLhjFxl5PelkmHe4eINzgSB3IV28xQQOCBhIUoovgtKaxcbWD51F4iPtrwS7wETEHbCKQjGAQ=="/>
             </sparkle:deltas>
         </item>
         <item>
